@@ -1,1 +1,1 @@
-worker: python3 muku.py
+worker: python3 Muku.py
