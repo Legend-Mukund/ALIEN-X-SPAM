@@ -31,7 +31,6 @@
 - `STRING_SESSION OF IDS`
 
 ## PLEASE GIVE STAR
-- `Don't Try To Kang Else The File Will Corrupt And We Don't Support It..!!!`
 
 ## CREDIT 
 - [MUKU](https://github.com/Legend-Mukund)
