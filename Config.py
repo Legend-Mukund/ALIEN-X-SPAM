@@ -39,4 +39,3 @@ API_HASH = getenv("API_HASH")
 BIO_MESSAGE = getenv("BIO")
 SUDO = list(map(int, getenv("SUDO").split()))
 
-
