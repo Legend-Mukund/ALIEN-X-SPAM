@@ -2,14 +2,14 @@
 
 <h4 align="center"> 𝐀 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌 𝐔𝐒𝐄𝐑𝐁𝐎𝐓𝐒 𝐌𝐀𝐃𝐄 𝐅𝐎𝐑 𝐒𝐏𝐀𝐌𝐌𝐄𝐑𝐒 <br> ... Written With Python and Telethon...</h4>
 
-<p align="center"><a href="https://t.me/Dr_Asad_Ali"><img src="https://telegra.ph/file/53edaffaee5755e83f5b0.mp4" width="400"></a></p>
+<p align="center"><a href="https://t.me/LEGEND_MUKUND"><img src="https://telegra.ph/file/8b4ede1ddefde4aa50f71.jpg" width="400"></a></p>
 
 <p align="center">
-    <a href="https://app.codacy.com/manual/jankarikiduniya/AlexaMusicBot/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
-    <a href="https://github.com/jankarikiduniya/AlexaMusicBot"> <img src="https://img.shields.io/github/repo-size/jankarikiduniya/AlexaMusicBot?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/jankarikiduniya/AlexaMusicBot/commits/prince"> <img src="https://img.shields.io/github/last-commit/jankarikiduniya/AlexaMusicBot?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/jankarikiduniya/AlexaMusicBot/issues"> <img src="https://img.shields.io/github/issues/jankarikiduniya/AlexaMusicBot?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/jankarikiduniya/AlexaMusicBot/network/members"> <img src="https://img.shields.io/github/forks/jankarikiduniya/AlexaMusicBot?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
+    <a href="https://app.codacy.com/manual/Legend-Mukund/ALIEN-ID-SPAM/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
+    <a href="https://github.com/Legend-Mukund/ALIEN-ID-SPAM"> <img src="https://img.shields.io/github/repo-size/Legend-Mukund/ALIEN-ID-SPAM?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/Legend-Mukund/ALIEN-ID-SPAM/commits/prince"> <img src="https://img.shields.io/github/last-commit/Legend-Mukund/ALIEN-ID-SPAM?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/Legend-Mukund/ALIEN-ID-SPAM/issues"> <img src="https://img.shields.io/github/issues/Legend-Mukund/ALIEN-ID-SPAM?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/Legend-Mukund/ALIEN-ID-SPAM/network/members"> <img src="https://img.shields.io/github/forks/Legend-Mukund/ALIEN-ID-SPAM?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
 </p>
 
