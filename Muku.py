@@ -15,6 +15,7 @@ from telethon.tl.functions.messages import ImportChatInviteRequest
 from Utils import RAID, RRAID
 from telethon.tl.functions.channels import JoinChannelRequest
 
+
 a = API_ID
 b = API_HASH
 smex = STRING
@@ -112,10 +113,10 @@ async def start_yukki():
             print("Booting Up The Client 1")
             await idk.start()
             botme = await idk.get_me()
-            await idk(functions.channels.JoinChannelRequest(channel="@Legend_Userbots"))
-            await idk(functions.channels.JoinChannelRequest(channel="@Legendbotub"))
-            await idk(functions.channels.JoinChannelRequest(channel="@LegendFonts"))
-            await idk(functions.channels.JoinChannelRequest(channel="@LEGEND_MR_LOGOS"))
+            await idk(functions.channels.JoinChannelRequest(channel="@ALIEN_X_SUPPORT"))
+            await idk(functions.channels.JoinChannelRequest(channel="@ALIEN_X_UPDATE"))
+            await idk(functions.channels.JoinChannelRequest(channel="@Sharedsecrets"))
+            await idk(functions.channels.JoinChannelRequest(channel="@"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -830,11 +831,11 @@ async def _(e):
         yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 6:
             bc = yukki[0]
-            text = "Joining..."
+            text = "𝐴𝑊𝑊 𝐽𝑂𝐼𝑁𝐼𝑁𝐺 👻..."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("𝐉𝐎𝐢𝐍 𝐇𝐎𝐆𝐘𝐀 𝐕𝐀𝐈 𝐀𝐁 𝐁𝐓𝐀 𝐊𝐈𝐒𝐊𝐈 𝐌𝐀𝐑𝐔😏🔥")
+                await event.edit("𝐴𝑊𝑊 𝐽𝑂𝐼𝑁 𝑇𝑂 𝐾𝐴𝑅𝐿𝐼𝑌𝐴 𝐵𝑈𝑇 𝐴𝐵 𝑀𝐴𝐼 𝐾𝐼𝑆𝐾𝐼 𝑀𝐴𝑅𝑈𝑁 🥺")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -874,11 +875,11 @@ async def _(e):
         yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 7:
             bc = yukki[0]
-            text = "Joining...."
+            text = "𝐴𝑊𝑊 𝐽𝑂𝐼𝑁𝐼𝑁𝐺 👻..."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("𝐉𝐎𝐢𝐍 𝐇𝐎𝐆𝐘𝐀 𝐕𝐀𝐈 𝐀𝐁 𝐁𝐓𝐀 𝐊𝐈𝐒𝐊𝐈 𝐌𝐀𝐑𝐔😏🔥")
+                await event.edit("𝐴𝑊𝑊 𝐽𝑂𝐼𝑁 𝑇𝑂 𝐾𝐴𝑅𝐿𝐼𝑌𝐴 𝐵𝑈𝑇 𝐴𝐵 𝑀𝐴𝐼 𝐾𝐼𝑆𝐾𝐼 𝑀𝐴𝑅𝑈𝑁 🥺")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -918,11 +919,11 @@ async def _(e):
         if len(e.text) == 7:
             bc = yukki[0]
             bc = int(bc)
-            text = "RDX BOT Leaving....."
+            text = "𝐴𝐿𝐼𝐸𝑁 𝑋 𝐿𝐸𝐴𝑉𝐼𝑁𝐺 👻..."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
-                await event.edit("Succesfully Left")
+                await event.edit("𝑆𝑈𝐶𝐶𝐸𝑆𝐹𝑈𝐿𝐿𝑌 𝐿𝐸𝐹𝑇...")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -1108,7 +1109,7 @@ async def spam(e):
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     await e.client.send_message(e.chat_id, message)
-                    await asyncio.sleep(0.3)
+                    await asyncio.sleep(0.1)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
 
@@ -1172,7 +1173,7 @@ async def spam(e):
                 caption = f"{username} {reply}"
                 async with e.client.action(e.chat_id, "typing"):
                     await e.client.send_message(e.chat_id, caption)
-                    await asyncio.sleep(0.3)
+                    await asyncio.sleep(0.1)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
 
@@ -1213,7 +1214,7 @@ async def _(event):
     if not queue:
         return
     async with event.client.action(event.chat_id, "typing"):
-        await asyncio.sleep(0.2)
+        await asyncio.sleep(0.1)
     async with event.client.action(event.chat_id, "typing"):
         await event.client.send_message(
             entity=event.chat_id,
@@ -1265,7 +1266,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "Activated Reply Raid"
+            text = "𝑁𝑂𝑊 𝐾𝐼𝐷 𝐶𝐴𝑁'𝑇 𝑆𝑃𝐸𝐴𝐾 👻"
             await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -1275,7 +1276,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "Activated Reply Raid"
+            text = "𝑁𝑂𝑊 𝐾𝐼𝐷 𝐶𝐴𝑁'𝑇 𝑆𝑃𝐸𝐴𝐾 👻"
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -1324,7 +1325,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "De-Activated Reply Raid"
+            text = "𝑁𝑂𝑊 𝐾𝐼𝐷 𝐶𝐴𝑁 𝑆𝑃𝐸𝐴𝐾 𝐹𝑅𝐸𝐸𝐿𝑌 👻"
             await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -1335,7 +1336,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "De-Activated Reply Raid"
+            text = "𝑁𝑂𝑊 𝐾𝐼𝐷 𝐶𝐴𝑁 𝑆𝑃𝐸𝐴𝐾 𝐹𝑅𝐸𝐸𝐿𝑌 👻"
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -1371,11 +1372,11 @@ async def _(e):
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "Pong!"
+        text = "𝑃𝑂𝑁𝐺.."
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"★彡[ᴘᴏɴɢ]彡★!\n`{ms}` 𝗺𝘀")
+        await event.edit(f"█▀█ █▀█ █▄░█ █▀▀\n█▀▀ █▄█ █░▀█ █▄█\n`{ms}` 𝗺𝘀")
 
 
     
@@ -1409,7 +1410,7 @@ async def ping(e):
 @put.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\nPlease wait till it reboots..."
+        text = "🔱 𝑅𝐸𝑆𝑇𝐴𝑅𝑇𝐸𝐷 𝑃𝐿𝑍 𝑊𝐴𝐼𝑀𝑇 𝑇𝐼𝐿𝐿 𝐼𝑇 𝑅𝐸𝐵𝑂𝑂𝑇𝑆... 🔱"
         await e.reply(text, parse_mode=None, link_preview=None )
         try:
             await idk.disconnect()
@@ -1489,17 +1490,71 @@ async def help(e):
     if e.sender_id in SMEX_USERS:
        text = "𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄 𝐂𝐎𝐌𝐌𝐌𝐀𝐍𝐃𝐒 𝐈𝐍 𝐈𝐍𝐂𝐑𝐄𝐃𝐈𝐁𝐋𝐄 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓 \n\n𝐔𝐓𝐈𝐋𝐒 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.ping\n.restart\n\n𝐔𝐒𝐄𝐑𝐁𝐎𝐓 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.bio\n.join\n.pjoin\n.pleave\n\n𝐒𝐏𝐀𝐌 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\nFor more help regarding usage of plugins type plugins name"
        await e.reply(text, parse_mode=None, link_preview=None )
+        
+        
+        
+        
+        
+        
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+
+async def help(e):
+    if e.sender_id in SMEX_USERS:
+       HELP_PIC = "https://telegra.ph/file/53edaffaee5755e83f5b0.mp4" 
+       text = "𝐇𝐎𝐈 𝐓𝐇𝐄𝐈𝐑 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐄𝐍 𝐗 𝐒𝐏𝐀𝐌 𝐌𝐀𝐊𝐄 𝐘𝐎𝐔𝐑 𝐎𝐖𝐍 💥
+    buttons=[
+        [
+        Button.url("ᴄʜᴀɴɴᴇʟ 🐉", "https://t.me/ALIEN_X_UPDATE"),
+        Button.url("sᴜᴘᴘᴏʀᴛ 🚨", "https://t.me/ALIEN_X_SUPPORT")
+        ],
+        [
+        Button.url("ɢɪʙ ᴍᴇ ʜᴇᴀʀᴛ ❤️", "https://t.me/ABOUT_MUKUND/15")
+        ],
+        [
+        Button.url("• ʀᴇᴘᴏ •", "hhttps://github.com/Legend-Mukund/ALIEN-ID-SPAM")
+        ]
+        ]"
+       await e.reply(text, parse_mode=None, link_preview=None )      
+        
 
         
 
     
         
 text = """
-CONGRATS🥳🥳🥳 YOUR FASTEST, SMOOTHEST AND POWERFUL LEGENDSPAMBOT DEPLOYED SUCCESSFULLY """
+░▄▀▀▀▀▄░░▄▄
+█░A░░L░▀▀░░█░░░░░░▄░▄
+█░I░░░░██░████████████
+█░E░░N░▄▄░░█░░░░░░▀░▀
+░▀▄▄▄▄▀░░▀▀"""
 
 print(text)
 print("")
-print("🙏🔥🔥YOUR! LEGEND SPAM BOT STARTED SUCCESFULLY.🔥🔥🙏")
+print("⚡️ᴀʟɪᴇɴ sᴘᴀᴍ ʙᴏᴛ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ...⚡️")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
