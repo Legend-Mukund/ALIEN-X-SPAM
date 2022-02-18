@@ -4,16 +4,8 @@
 
 <p align="center"><a href="https://t.me/LEGEND_MUKUND"><img src="https://telegra.ph/file/8b4ede1ddefde4aa50f71.jpg" width="400"></a></p>
 
-<p align="center">
-    <a href="https://app.codacy.com/manual/Legend-Mukund/ALIEN-ID-SPAM/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
-    <a href="https://github.com/Legend-Mukund/ALIEN-ID-SPAM"> <img src="https://img.shields.io/github/repo-size/Legend-Mukund/ALIEN-ID-SPAM?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/Legend-Mukund/ALIEN-ID-SPAM/commits/prince"> <img src="https://img.shields.io/github/last-commit/Legend-Mukund/ALIEN-ID-SPAM?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/Legend-Mukund/ALIEN-ID-SPAM/issues"> <img src="https://img.shields.io/github/issues/Legend-Mukund/ALIEN-ID-SPAM?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/Legend-Mukund/ALIEN-ID-SPAM/network/members"> <img src="https://img.shields.io/github/forks/Legend-Mukund/ALIEN-ID-SPAM?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
-    <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
-</p>
 
-> ⭐️ Thanks to everyone for using Alexa, That is the greatest pleasure we have !
+> ⭐️ Thanks to everyone for using , That is the greatest pleasure we have !
 
 <details>
 <summary><b>ꜰᴇᴀᴛᴜʀᴇꜱ</b></summary>
