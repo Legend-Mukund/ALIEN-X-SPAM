@@ -1,6 +1,6 @@
 <h1 align="center"><b>🐉 𝐀𝐋𝐈𝐄𝐍 𝐗 𝐒𝐏𝐀𝐌 🐉</b></h1>
 
-<h4 align="center"> 𝐀 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌 𝐔𝐒𝐄𝐑𝐁𝐎𝐓𝐒 𝐌𝐀𝐃𝐄 𝐅𝐎𝐑 𝐒𝐏𝐀𝐌𝐌𝐄𝐑𝐒 <br> ... Written With Python and Telethon...</h4>
+<h4 align="center"> 𝐀 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌 𝐔𝐒𝐄𝐑𝐁𝐎𝐓𝐒 𝐌𝐀𝐃𝐄 𝐅𝐎𝐑 𝐒𝐏𝐀𝐌𝐌𝐄𝐑𝐒 </h4>
 
 <p align="center"><a href="https://t.me/LEGEND_MUKUND"><img src="https://telegra.ph/file/8b4ede1ddefde4aa50f71.jpg" width="400"></a></p>
 
