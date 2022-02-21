@@ -6,7 +6,7 @@ from os import execl
 from telethon import TelegramClient, events
 from telethon.sessions import StringSession
 from telethon.tl.functions.account import UpdateProfileRequest
-from Config import STRING, SUDO, BIO_MESSAGE, API_ID, API_HASH, STRING2, STRING3, STRING4 ,STRING5, STRING6, STRING7, STRING8 ,STRING9, STRING10, STRING11, STRING12 , STRING13 , STRING14 , STRING15 ,STRING16 , STRING17 , STRING18 , STRING19 , STRING20 , STRING21 , STRING22 , STRING23 , STRING24 , STRING25 
+from Config import STRING, SUDO, BIO_MESSAGE, ALIVE_IMAGE, API_ID, API_HASH, STRING2, STRING3, STRING4 ,STRING5, STRING6, STRING7, STRING8 ,STRING9, STRING10, STRING11, STRING12 , STRING13 , STRING14 , STRING15 ,STRING16 , STRING17 , STRING18 , STRING19 , STRING20 , STRING21 , STRING22 , STRING23 , STRING24 , STRING25 
 import asyncio
 import telethon.utils
 from telethon.tl import functions
@@ -1002,107 +1002,107 @@ USTAD_PIC = "https://telegra.ph/file/5885702e3a3fb66fe2d3d.jpg"
 async def start(event):
     if event.sender_id in SMEX_USERS:
      await idk.send_file(event.chat_id,
-                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  ALIVE_IMAGE,
                                   caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
                               )
      await ydk.send_file(event.chat_id,
-                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  ALIVE_IMAGE,
                                   caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
                               )
      await wdk.send_file(event.chat_id,
-                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  ALIVE_IMAGE,
                                   caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
                               )
      await hdk.send_file(event.chat_id,
-                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  ALIVE_IMAGE,
                                   caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
                               )
      await sdk.send_file(event.chat_id,
-                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  ALIVE_IMAGE,
                                   caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
                               )
      await adk.send_file(event.chat_id,
-                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  ALIVE_IMAGE,
                                   caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
                               )
      await bdk.send_file(event.chat_id,
-                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  ALIVE_IMAGE,
                                   caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
                               )
      await cdk.send_file(event.chat_id,
-                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  ALIVE_IMAGE,
                                   caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
                               )
      await edk.send_file(event.chat_id,
-                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  ALIVE_IMAGE,
                                   caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
                               )
      await hdk.send_file(event.chat_id,
-                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  ALIVE_IMAGE,
                                   caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
                               )
      await ddk.send_file(event.chat_id,
-                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  ALIVE_IMAGE,
                                   caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
                               )
      await vkk.send_file(event.chat_id,
-                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  ALIVE_IMAGE,
                                   caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
                               )
      await kkk.send_file(event.chat_id,
-                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  ALIVE_IMAGE,
                                   caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
                               )
      await lkk.send_file(event.chat_id,
-                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  ALIVE_IMAGE,
                                   caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
                               )
      await mkk.send_file(event.chat_id,
-                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  ALIVE_IMAGE,
                                   caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
                               )
      await sid.send_file(event.chat_id,
-                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  ALIVE_IMAGE,
                                   caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
                               )
      await shy.send_file(event.chat_id,
-                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  ALIVE_IMAGE,
                                   caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
                               )
      await aan.send_file(event.chat_id,
-                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  ALIVE_IMAGE,
                                   caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
                               )
      await ake.send_file(event.chat_id,
-                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  ALIVE_IMAGE,
                                   caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
                               )
      await eel.send_file(event.chat_id,
-                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  ALIVE_IMAGE,
                                   caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
                               )
      await khu.send_file(event.chat_id,
-                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  ALIVE_IMAGE,
                                   caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
                               )
      await shi.send_file(event.chat_id,
-                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  ALIVE_IMAGE,
                                   caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
                               )
      await yaa.send_file(event.chat_id,
-                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  ALIVE_IMAGE,
                                   caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
                               )
      await dav.send_file(event.chat_id,
-                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  ALIVE_IMAGE,
                                   caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
                               )
      await raj.send_file(event.chat_id,
-                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  ALIVE_IMAGE,
                                   caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
                               )
      await put.send_file(event.chat_id,
-                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  ALIVE_IMAGE,
                                   caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
                               )        
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
