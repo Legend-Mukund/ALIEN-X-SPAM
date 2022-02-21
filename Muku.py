@@ -798,7 +798,49 @@ async def gifspam(e, smex):
         pass
 
 
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
 
+async def _(e):
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗕𝗶𝗼\n\nCommand:\n\n.bio <Message to set Bio of Userbot accounts>"
+    if e.sender_id in SMEX_USERS:
+        yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)     
+        if len(e.text) > 5:
+            bio = str(yukki[0])
+            text = "𝐴𝑊𝑊 𝑊𝐴𝐼𝑇 𝐼 𝐴𝑀 𝐶𝐻𝐴𝑁𝐺𝐼𝑁𝐺 𝑇𝐻𝐸 𝐵𝐼𝑂"
+            event = await e.reply(text, parse_mode=None, link_preview=None )
+            try:
+                await e.client(functions.account.UpdateProfileRequest(about=bio))
+                await event.edit("𝐴𝑊𝑊 𝐷𝑂𝑁𝐸 𝐶𝐻𝐴𝑁𝐺𝐸𝐷 𝑇𝐻𝐸 𝐵𝐼𝑂")
+            except Exception as e:
+                await event.edit(str(e))   
+        else:
+            await e.reply(usage, parse_mode=None, link_preview=None )
+            
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
@@ -886,52 +928,183 @@ async def _(e):
             await e.reply(usage, parse_mode=None, link_preview=None )
             
         
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@adk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@bdk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@cdk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@ddk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@vkk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@kkk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@lkk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@mkk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@sid.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@shy.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@aan.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@ake.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@eel.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@khu.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@shi.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@dav.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@raj.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@put.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗟𝗲𝗮𝘃𝗲\n\nCommand:\n\n.leave <Channel or Chat ID>"
     if e.sender_id in SMEX_USERS:
-        yukki = ("".leave(e.text.split(maxsplit=1)[1:])).split(" ", 1)
-        if len(e.text) == 7:
-            bc = yukki[0]
+        ustad = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        if len(e.text) > 7:
+            bc = ustad[0]
             bc = int(bc)
-            text = "𝐴𝐿𝐼𝐸𝑁 𝑋 𝐿𝐸𝐴𝑉𝐼𝑁𝐺 👻..."
+            text = "𝐿𝐸𝐴𝑉𝐼𝑁𝐺..."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
-                await event.edit("𝑆𝑈𝐶𝐶𝐸𝑆𝐹𝑈𝐿𝐿𝑌 𝐿𝐸𝐹𝑇...")
+                await event.edit("𝑆𝑈𝐶𝐶𝐸𝑆𝐹𝑈𝐿𝐿𝑌 𝐿𝐸𝐴𝑉𝐸𝐷...")
             except Exception as e:
                 await event.edit(str(e))   
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
             
-                
-        
-        
+
+USTAD_PIC = "https://telegra.ph/file/5885702e3a3fb66fe2d3d.jpg"
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+async def start(event):
+    if event.sender_id in SMEX_USERS:
+     await idk.send_file(event.chat_id,
+                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
+                              )
+     await ydk.send_file(event.chat_id,
+                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
+                              )
+     await wdk.send_file(event.chat_id,
+                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
+                              )
+     await hdk.send_file(event.chat_id,
+                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
+                              )
+     await sdk.send_file(event.chat_id,
+                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
+                              )
+     await adk.send_file(event.chat_id,
+                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
+                              )
+     await bdk.send_file(event.chat_id,
+                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
+                              )
+     await cdk.send_file(event.chat_id,
+                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
+                              )
+     await edk.send_file(event.chat_id,
+                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
+                              )
+     await hdk.send_file(event.chat_id,
+                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
+                              )
+     await ddk.send_file(event.chat_id,
+                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
+                              )
+     await vkk.send_file(event.chat_id,
+                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
+                              )
+     await kkk.send_file(event.chat_id,
+                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
+                              )
+     await lkk.send_file(event.chat_id,
+                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
+                              )
+     await mkk.send_file(event.chat_id,
+                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
+                              )
+     await sid.send_file(event.chat_id,
+                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
+                              )
+     await shy.send_file(event.chat_id,
+                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
+                              )
+     await aan.send_file(event.chat_id,
+                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
+                              )
+     await ake.send_file(event.chat_id,
+                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
+                              )
+     await eel.send_file(event.chat_id,
+                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
+                              )
+     await khu.send_file(event.chat_id,
+                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
+                              )
+     await shi.send_file(event.chat_id,
+                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
+                              )
+     await yaa.send_file(event.chat_id,
+                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
+                              )
+     await dav.send_file(event.chat_id,
+                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
+                              )
+     await raj.send_file(event.chat_id,
+                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
+                              )
+     await put.send_file(event.chat_id,
+                                  https://telegra.ph/file/53edaffaee5755e83f5b0.mp4,
+                                  caption="✯ 𝐴𝐿𝐼𝐸𝑁 𝑋 𝑆𝑃𝐴𝑀 𝐻𝐸𝑅𝐸 ✯\n\n═══════════════════\n 𝐼 𝐴𝑀 𝐴𝐿𝐼𝑉𝐸...⚡\n𝐴𝐿𝐼𝐸𝑁 𝑋 𝑉𝐸𝑅𝑆𝐼𝑂𝑁 :- 0.1\n 𝐶𝑅𝐸𝐴𝑇𝐸 𝑌𝑂𝑈𝑅 𝑂𝑊𝑁 𝐵𝑂𝑇 𝐶𝐿𝐼𝐶𝐾 𝐻𝐸𝑅𝐸 [𝐴𝐿𝐼𝐸𝑁 𝑋](https://github.com/Legend-Mukund/ALIEN-X-SPAM)...👻\n═══════════════════\n\n"                                
+                              )        
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
@@ -1214,7 +1387,7 @@ async def _(event):
     if not queue:
         return
     async with event.client.action(event.chat_id, "typing"):
-        await asyncio.sleep(0.1)
+        await asyncio.sleep(0.2)
     async with event.client.action(event.chat_id, "typing"):
         await event.client.send_message(
             entity=event.chat_id,
@@ -1372,16 +1545,145 @@ async def _(e):
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "𝑃𝑂𝑁𝐺.."
+        text = "𝑃𝑂𝑁𝐺!"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"⚡𝓟𝓸𝓷𝓰\n👻`0.0` 𝗺𝘀")
+        await event.edit(f"🚨 𝑃𝑂𝑁𝐺\n`{ms}` 𝗺𝘀")
 
 
     
         
-        
+# INVITE ALL OP
+
+from telethon.errors import (
+    ChannelInvalidError,
+    ChannelPrivateError,
+    ChannelPublicGroupNaError,
+)
+from telethon.tl import functions
+from telethon.tl.functions.channels import GetFullChannelRequest
+from telethon.tl.functions.messages import GetFullChatRequest
+
+
+async def get_chatinfo(event):
+    chat = event.pattern_match.group(1)
+    chat_info = None
+    if chat:
+        try:
+            chat = int(chat)
+        except ValueError:
+            pass
+    if not chat:
+        if event.reply_to_msg_id:
+            replied_msg = await event.get_reply_message()
+            if replied_msg.fwd_from and replied_msg.fwd_from.channel_id is not None:
+                chat = replied_msg.fwd_from.channel_id
+        else:
+            chat = event.chat_id
+    try:
+        chat_info = await event.client(GetFullChatRequest(chat))
+    except:
+        try:
+            chat_info = await event.client(GetFullChannelRequest(chat))
+        except ChannelInvalidError:
+            await event.reply("𝐼𝑁𝑉𝐴𝐿𝐼𝐷 𝐶𝐻𝐴𝑁𝑁𝐸𝐿 𝑂𝑅 𝐺𝑅𝑂𝑈𝑃...😭")
+            return None
+        except ChannelPrivateError:
+            await event.reply(
+                "𝐼 𝐴𝑀 𝐵𝐴𝑁𝑁𝐸𝐷 𝐼𝑁 𝑇𝐻𝐼𝑆 𝑃𝑅𝐼𝑉𝐴𝑇𝐸 𝐶𝐻𝐴𝑁𝑁𝐸𝐿 𝑂𝑅 𝐺𝑅𝑂𝑈𝑃...😭"
+            )
+            return None
+        except ChannelPublicGroupNaError:
+            await event.reply("𝐶𝐻𝐴𝑁𝑁𝐸𝐿 𝑂𝐹 𝑆𝑈𝑃𝐸𝑅 𝐺𝑅𝑂𝑈𝑃 𝐷𝑂𝑆𝐸𝑁'𝑇 𝐸𝑋𝐼𝑆𝑇...😭")
+            return None
+        except (TypeError, ValueError):
+            await event.reply("𝐼𝑁𝑉𝐴𝐿𝐼𝐷 𝐶𝐻𝐴𝑁𝑁𝐸𝐿 𝑂𝑅 𝐺𝑅𝑂𝑈𝑃...😭")
+            return None
+    return chat_info
+
+
+def make_mention(user):
+    if user.username:
+        return f"@{user.username}"
+    else:
+        return inline_mention(user)
+
+
+def inline_mention(user):
+    full_name = user_full_name(user) or "No Name"
+    return f"[{full_name}](tg://user?id={user.id})"
+
+
+def user_full_name(user):
+    names = [user.first_name, user.last_name]
+    names = [i for i in list(names) if i]
+    full_name = " ".join(names)
+    return full_name
+
+
+            
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall")) 
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall")) 
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall")) 
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall")) 
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall")) 
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+
+async def get_users(event):
+    if event.sender_id in SMEX_USERS:
+        rkp = await event.reply("𝑃𝑅𝑂𝐶𝐸𝑆𝑆𝐼𝑁𝐺...")
+    else:
+        rkp = await event.edit("𝑃𝑅𝑂𝐶𝐸𝑆𝑆𝐼𝑁𝐺...")
+    rk1 = await get_chatinfo(event)
+    chat = await event.get_chat()
+    if event.is_private:
+        return await rkp.edit("𝑆𝑂𝑅𝑅𝑌 𝐶𝐴𝑁'𝑇 𝐴𝐷𝐷 𝑈𝑆𝐸𝑅𝑆 𝐻𝐸𝑅𝐸...😭")
+    s = 0
+    f = 0
+    error = "None"
+
+    await rkp.edit("⚜️ 𝑇𝐸𝑅𝑀𝐼𝑁𝐴𝐿 𝑆𝑇𝐴𝑇𝑈𝑆 ⚜️\n\n`𝐾𝐼𝐷𝑁𝐴𝑃𝑃𝐼𝑁𝐺 𝑈𝑆𝐸𝑅𝑆...")
+    async for user in event.client.iter_participants(rk1.full_chat.id):
+        try:
+            if error.startswith("Too"):
+                return await rkp.edit(
+                    f"𝑇𝐸𝑅𝑀𝐼𝑁𝐴𝐿 𝐹𝐼𝑁𝐼𝑆𝐻𝐸𝐷 𝑊𝐼𝑇𝐻 𝐸𝑅𝑅𝑂𝑅𝑆...😂\n(𝑀𝐴𝑌 𝐺𝑂𝑇 𝐿𝐼𝑀𝐼𝑇 𝐸𝑅𝑅𝑂𝑅 𝐹𝑅𝑂𝑀 𝑇𝐸𝐿𝐸𝑇𝐻𝑂𝑁 𝑇𝑅𝑌 𝐴𝐺𝐴𝐼𝑁 𝐿𝐴𝑇𝐸𝑅...)\n𝐸𝑅𝑅𝑂𝑅 : \n`{error}`\n\n✪ 𝐼𝑁𝑉𝐼𝑇𝐸𝐷 𝑈𝑆𝐸𝑅𝑆 `{s}` people \n✪ 𝐹𝐴𝐼𝐿𝐸𝐷 𝑇𝑂 𝐼𝑁𝑉𝐼𝑇𝐸... `{f}` 𝑃𝐸𝑂𝑃𝐿𝐸"
+                )
+            await event.client(
+                functions.channels.InviteToChannelRequest(channel=chat, users=[user.id])
+            )
+            s = s + 1
+            await rkp.edit(
+                f"𝑇𝐸𝑅𝑀𝐼𝑁𝐴𝐿 𝑅𝑈𝑁𝑁𝐼𝑁𝐺...\n\n✪ 𝐼𝑁𝑉𝐼𝑇𝐸𝐷 `{s}` 𝑃𝐸𝑂𝑃𝐿𝐸 \n✪ 𝐹𝐴𝐼𝐿𝐸𝐷 𝑇𝑂 𝐼𝑁𝑉𝐼𝑇𝐸... `{f}` 𝑃𝐸𝑂𝑃𝐿𝐸\n\n✪ 𝐿𝐴𝑆𝑇 𝐸𝑅𝑅𝑂𝑅: `{error}`"
+            )
+        except Exception as e:
+            error = str(e)
+            f = f + 1
+    return await rkp.edit(
+        f"𝑇𝐸𝑅𝑀𝐼𝑁𝐴𝐿 𝐹𝐼𝑁𝐼𝑆𝐻𝐸𝐷...💥 \n\n✪ Successfully 𝐼𝑁𝑉𝐼𝑇𝐸𝐷 `{s}` 𝑃𝐸𝑂𝑃𝐿𝐸 \n✪ 𝐹𝐴𝐼𝐿𝐸𝐷 𝑇𝑂 𝐼𝑁𝑉𝐼𝑇𝐸... `{f}` 𝑃𝐸𝑂𝑃𝐿𝐸"
+    )        
+
+# _______
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -1488,7 +1790,7 @@ async def restart(e):
 
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = "𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄 𝐂𝐎𝐌𝐌𝐌𝐀𝐍𝐃𝐒 𝐈𝐍 𝐈𝐍𝐂𝐑𝐄𝐃𝐈𝐁𝐋𝐄 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓 \n\n𝐔𝐓𝐈𝐋𝐒 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.ping\n.restart\n\n𝐔𝐒𝐄𝐑𝐁𝐎𝐓 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.bio\n.join\n.pjoin\n.pleave\n\n𝐒𝐏𝐀𝐌 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\nFor more help regarding usage of plugins type plugins name"
+       text = "𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.ping\n.restart\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.join\n.pjoin\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\n𝐹𝑂𝑅 𝑀𝑂𝑅𝐸 𝐻𝐸𝐿𝑃 𝑅𝐸𝐺𝐴𝑅𝐷𝐼𝑁𝐺 𝑈𝑆𝐴𝐺𝐸 𝑂𝐹 𝑃𝐿𝑈𝐺𝐼𝑁𝑆 𝑇𝑌𝑃𝐸 𝑃𝐿𝑈𝐺𝐼𝑁𝑆 𝑁𝐴𝑀𝐸"
        await e.reply(text, parse_mode=None, link_preview=None )
 
         
