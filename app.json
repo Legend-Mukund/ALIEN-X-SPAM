@@ -143,6 +143,16 @@
         "value": "",
         "required": true
       },
+      "ALIVE_IMAGE": {
+        "description": "𝑇𝐻𝐸 𝐼𝑀𝐴𝐺𝐸 𝑇𝐻𝐴𝑇 𝑊𝐼𝐿𝐿 𝐵𝐸 𝑆𝐻𝑂𝑊 𝑂𝑁 𝐴𝐿𝐼𝑉𝐸 𝐶𝑂𝑀𝑀𝐴𝑁𝐷",
+        "value": "https://telegra.ph/file/53edaffaee5755e83f5b0.mp4",
+        "required": false
+      },
+      "ALIVE_NAME": {
+        "description": "𝑇𝐻𝐸 𝑁𝐴𝑀𝐸 𝑂𝐹 𝑇𝐻𝐸 𝑀𝐴𝑆𝑇𝐸𝑅",
+        "value": "",
+        "required": true  
+      },
       "SUDO": {
         "description": "Sudo Users Id",
         "value": "2006619406",
