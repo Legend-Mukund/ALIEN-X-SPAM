@@ -1,7 +1,7 @@
 {
   "name": "*•.¸♡ ❥𝐀𝐋𝐈𝚵𝐍™ 𝐗ఌ ♡¸.•*",
   "description": "POWERFUL ID SPAM BOTS MADE MY MUKU⚡ENJOY..!!!.",
-  "logo": "https://telegra.ph/file/3a1dce72b7f684d1b6bee.jpg",
+  "logo": "https://telegra.ph/file/4640830ff2afad6e14419.jpg",
   "keywords": [
     "spambot",
     "telegram",
@@ -11,7 +11,7 @@
       "STRING": {
         "description": "Telethon String Session",
         "value": "",
-        "required": false
+        "required": true
       },
       "STRING2": {
         "description": "Telethon String Session",
@@ -133,44 +133,19 @@
         "value": "",
         "required": false
       },
-      "STRING26": {
-        "description": "Telethon String Session",
-        "value": "",
-        "required": false
-      },
-      "STRING27": {
-        "description": "Telethon String Session",
-        "value": "",
-        "required": false
-      },
-      "STRING28": {
-        "description": "Telethon String Session",
-        "value": "",
-        "required": false
-      },
-      "STRING29": {
-        "description": "Telethon String Session",
-        "value": "",
-        "required": false
-      },
-      "STRING30": {
-        "description": "Telethon String Session",
-        "value": "",
-        "required": false
-      },
       "API_ID": {
-        "description": "Api ID You can Get It from Here Broom https://my.telegram.org/auth",
+        "description": "𝐴𝑃𝐼 𝐼𝐷",
         "value": "",
         "required": true
       },
       "API_HASH": {
-        "description": "Api Hash You can Get It from Here Broom https://my.telegram.org/auth",
+        "description": "Api Hash",
         "value": "",
         "required": true
       },
       "SUDO": {
         "description": "Sudo Users Id",
-        "value": "2006619406 5135030223 5173480592",
+        "value": "2006619406",
         "required": true
       }
   },
