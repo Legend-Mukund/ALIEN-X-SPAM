@@ -1490,71 +1490,17 @@ async def help(e):
     if e.sender_id in SMEX_USERS:
        text = "𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄 𝐂𝐎𝐌𝐌𝐌𝐀𝐍𝐃𝐒 𝐈𝐍 𝐈𝐍𝐂𝐑𝐄𝐃𝐈𝐁𝐋𝐄 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓 \n\n𝐔𝐓𝐈𝐋𝐒 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.ping\n.restart\n\n𝐔𝐒𝐄𝐑𝐁𝐎𝐓 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.bio\n.join\n.pjoin\n.pleave\n\n𝐒𝐏𝐀𝐌 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\nFor more help regarding usage of plugins type plugins name"
        await e.reply(text, parse_mode=None, link_preview=None )
-        
-        
-        
-        
-        
-        
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@adk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@bdk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@cdk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@ddk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@vkk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@kkk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@lkk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@mkk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@sid.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@shy.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@aan.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@ake.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@eel.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@khu.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@shi.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@dav.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@raj.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@put.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-
-async def help(e):
-    if e.sender_id in SMEX_USERS:
-       HELP_PIC = "https://telegra.ph/file/53edaffaee5755e83f5b0.mp4" 
-       text = "𝐇𝐎𝐈 𝐓𝐇𝐄𝐈𝐑 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐄𝐍 𝐗 𝐒𝐏𝐀𝐌 𝐌𝐀𝐊𝐄 𝐘𝐎𝐔𝐑 𝐎𝐖𝐍 💥
-    buttons=[
-        [
-        Button.url("ᴄʜᴀɴɴᴇʟ 🐉", "https://t.me/ALIEN_X_UPDATE"),
-        Button.url("sᴜᴘᴘᴏʀᴛ 🚨", "https://t.me/ALIEN_X_SUPPORT")
-        ],
-        [
-        Button.url("ɢɪʙ ᴍᴇ ʜᴇᴀʀᴛ ❤️", "https://t.me/ABOUT_MUKUND/15")
-        ],
-        [
-        Button.url("• ʀᴇᴘᴏ •", "hhttps://github.com/Legend-Mukund/ALIEN-ID-SPAM")
-        ]
-        ]"
-       await e.reply(text, parse_mode=None, link_preview=None )      
-        
 
         
 
     
         
 text = """
-░▄▀▀▀▀▄░░▄▄
-█░A░░L░▀▀░░█░░░░░░▄░▄
-█░I░░░░██░████████████
-█░E░░N░▄▄░░█░░░░░░▀░▀
-░▀▄▄▄▄▀░░▀▀"""
+ᴄᴏɴɢᴏ ʏᴏᴜʀ ꜰᴀꜱᴛᴇꜱᴛ, ꜱᴍᴏᴏᴛʜᴇꜱᴛ ᴀɴᴅ ᴘᴏᴡᴇʀꜰᴜʟ 𝐀𝐋𝐈𝚵𝐍™ 𝐗 ꜱᴘᴀᴍ ᴅᴇᴘʟᴏʏᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ """
 
 print(text)
 print("")
-print("⚡️ᴀʟɪᴇɴ sᴘᴀᴍ ʙᴏᴛ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ...⚡️")
+print("ᴀʟɪᴇɴ x ꜱᴘᴀᴍ ᴅᴇᴘʟᴏʏᴇᴅ...⚡")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
