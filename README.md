@@ -94,7 +94,7 @@
 
 # ꜱᴜᴘᴘᴏʀᴛ ✨
 <a href="https://t.me/ALIEN_X_SUPPORT"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
-<a href="**https://t.me/Shayri_Music_Lovers**"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
+<a href="**https://t.me/ALIEN_X_UPDATE**"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 <a href="https://t.me/ABOUT_MUKUND/15"><img src="https://img.shields.io/badge/Give-Me%20Heart-blue.svg?logo=telegram"></a>
 
 
