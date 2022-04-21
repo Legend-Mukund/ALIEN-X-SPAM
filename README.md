@@ -12,7 +12,6 @@
 <br>
 
 - ꜱᴘᴀᴍᴍɪɴɢ
-- ᴘʀɪᴠᴀᴛᴇ ɢʀᴏᴜᴘ ᴊᴏɪɴ ꜰᴇᴀᴛᴜʀᴇ
 - ʀᴀɪᴅ 
 
 </details>    
@@ -39,8 +38,7 @@
     
 - [ᴛᴇʟᴇɢʀᴀᴍ ᴀᴘɪ ɪᴅ](https://my.telegram.org/auth)    
 - [ᴛᴇʟᴇɢʀᴀᴍ ᴀᴘɪ ʜᴀꜱʜ](https://my.telegram.org/auth)
-- [sᴛʀɪɴɢ sᴇssɪᴏɴ](https://t.me/StringGeneratorRobot)
-    
+
 </details>
 
 <details>
@@ -49,7 +47,7 @@
     
 > ʏᴏᴜ'ʟʟ ɴᴇᴇᴅ ᴀ ᴀᴘɪ_ɪᴅ & ᴀᴘɪ_ʜᴀsʜ ɪɴ ᴏʀᴅᴇʀ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ sᴇssɪᴏɴ. 
 > ᴀʟᴡᴀʏs ʀᴇᴍᴇʙᴇʀ ᴛᴏ ᴜsᴇ ɢᴏᴏᴅ ᴀᴘɪ ᴄᴏᴍʙᴏ ᴇʟsᴇ ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ ᴄᴏᴜʟᴅ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ.
-> ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ ᴛᴏ ɢᴇɴᴇᴛʀᴀᴛᴇ ᴛʜᴇ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴏᴜʀᴄᴇꜱ [sᴛʀɪɴɢ sᴇssɪᴏɴ](https://t.me/StringGeneratorRobot)
+> ᴛᴏ ɢᴇɴᴇᴛʀᴀᴛᴇ ᴛʜᴇ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴏᴜʀᴄᴇꜱ.
     
 </details>
 
@@ -72,9 +70,7 @@
 <summary><b>ᴄʀᴇᴅɪᴛ</b></summary>
 <br>
 
-## sᴘᴇᴄɪᴀʟ ᴄʀᴇᴅɪᴛ
-
-- [❥ⲘⴑⲔⴑⲚⲆ⏤➖⃟🥀𓆩𝗫.⃝⃡𝐈‌‌ﮩ٨ـﮩﮩ٨ـ](https://t.me/LEGEND_MUKUND)
+<a href="https://github.com/Legend-Mukund"> <img src="https://img.shields.io/badge/Mukund-Github-magenta?style=for-the-badge&logo=github" alt="Mukund Github" /> </a>
 
 </details>
 
@@ -82,9 +78,7 @@
 <summary><b>ʙʀᴏᴛʜᴇʀ</b></summary>
 <br>
 
-- [ᴀꜱᴀᴅ](https://t.me/Dr_Asad_Ali)
-- [ꜱᴡᴀʏᴀᴍ](https://t.me/msdian4ver)
-- ᴀɴꜱʜ ᴋɪᴍᴅ xᴅ  
+<a href="https://t.me/Dr_Asad_Ali"> <img src="https://img.shields.io/badge/ᴀꜱᴀᴅ-green?style=for-the-badge&logo=telegram" alt="ᴀꜱᴀᴅ" /> </a>    
 
 </details>
 
@@ -92,12 +86,19 @@
 <summary><b>sᴜᴘᴘᴏʀᴛ</b></summary>
 <br>
 
-# ꜱᴜᴘᴘᴏʀᴛ ✨
-<a href="https://t.me/ALIEN_X_SUPPORT"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
-<a href="**https://t.me/ALIEN_X_UPDATE**"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
-<a href="https://t.me/ABOUT_MUKUND/15"><img src="https://img.shields.io/badge/Give-Me%20Heart-blue.svg?logo=telegram"></a>
+<a href="https://t.me/ABOUT_MUKUND/15"> <img src="https://img.shields.io/badge/Mukund-User-green?style=for-the-badge&logo=telegram" alt="Mukund on Telegram" /> </a>
+<a href="https://t.me/ALIEN_X_SUPPORT"> <img src="https://img.shields.io/badge/Support-Chat-green?style=for-the-badge&logo=telegram" alt="Support Chat" /> </a>
+<a href="https://t.me/ALIEN_X_UPDATE"> <img src="https://img.shields.io/badge/Update-Channel-green?style=for-the-badge&logo=telegram" alt="Update Channel" /> </a>
+
+</details>
 
 
+<details>
+<summary><b>ʟɪᴄᴇɴꜱᴇ</b></summary>
+<br>
+
+<a href="https://github.com/Legend-Mukund/ALIEN-X-SPAM/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-GPLv3-blueviolet?style=for-the-badge" alt="License" /> </a>
+  
 </details>
 
 
