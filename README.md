@@ -74,20 +74,15 @@
 
 </details>
 
-<details>
-<summary><b>ʙʀᴏᴛʜᴇʀ</b></summary>
-<br>
+  
 
-<a href="https://t.me/Dr_Asad_Ali"> <img src="https://img.shields.io/badge/ᴀꜱᴀᴅ-green?style=for-the-badge&logo=telegram" alt="ᴀꜱᴀᴅ" /> </a>    
-
-</details>
 
 <details>
 <summary><b>sᴜᴘᴘᴏʀᴛ</b></summary>
 <br>
 
 <a href="https://t.me/ABOUT_MUKUND/15"> <img src="https://img.shields.io/badge/Mukund-User-green?style=for-the-badge&logo=telegram" alt="Mukund on Telegram" /> </a>
-<a href="https://t.me/ALIEN_X_SUPPORT"> <img src="https://img.shields.io/badge/Support-Chat-green?style=for-the-badge&logo=telegram" alt="Support Chat" /> </a>
+<a href="https://t.me/META_CHATS"> <img src="https://img.shields.io/badge/Support-Chat-green?style=for-the-badge&logo=telegram" alt="Support Chat" /> </a>
 <a href="https://t.me/ALIEN_X_UPDATE"> <img src="https://img.shields.io/badge/Update-Channel-green?style=for-the-badge&logo=telegram" alt="Update Channel" /> </a>
 
 </details>
